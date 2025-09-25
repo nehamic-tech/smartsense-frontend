@@ -4,11 +4,13 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
+
   eslint: {
     config: {
       standalone: false,
     },
   },
+
   modules: [
     "@nuxt/eslint",
     "@nuxt/fonts",
@@ -16,13 +18,17 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@nuxtjs/i18n",
     "nuxt-translation-manager",
+    "@nuxtjs/color-mode",
+    "motion-v/nuxt",
+    "@vueuse/nuxt",
   ],
+
   css: ["~/assets/css/main.css"],
+
   vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+    plugins: [tailwindcss()],
   },
+
   i18n: {
     defaultLocale: "pt",
     locales: [
@@ -31,5 +37,36 @@ export default defineNuxtConfig({
     ],
     langDir: "../app/locales/",
     strategy: "prefix_except_default",
+  },
+
+  imports: {
+    imports: [
+      {
+        from: "tailwind-variants",
+        name: "tv",
+      },
+      {
+        from: "tailwind-variants",
+        name: "VariantProps",
+        type: true,
+      },
+    ],
+  },
+
+  colorMode: {
+    storageKey: "frontend-color-mode",
+    classSuffix: "",
+  },
+
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 0,
+    },
+
+    mode: "svg",
+    class: "shrink-0",
+    fetchTimeout: 2000,
+    serverBundle: "local",
   },
 });
