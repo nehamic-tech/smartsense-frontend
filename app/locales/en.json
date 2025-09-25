@@ -1,0 +1,21 @@
+{
+  "btn_login": "Login",
+  "btn_signup": "Sign Up",
+  "errors.fieldMandatory": "This field is required",
+  "errors.invalidEmail": "Invalid email address",
+  "errors.passwordMin": "Password must be at least 6 characters",
+  "errors.passwordMismatch": "Passwords do not match",
+  "errors.stringMin": "Must be at least 2 characters",
+  "login": "Login",
+  "signup_feature_1": "Connect in minutes with our easy-to-use platform.",
+  "signup_feature_2": "Rapidly develop IoT applications",
+  "signup_feature_3": "Gain valuable insights with built-in analytics and visualizations.",
+  "signup_feature_4": "Manage devices remotely with OTA updates.",
+  "signup_header": "Welcome to our registration page!",
+  "signup.create_account": "Create your account",
+  "signup.frm.tos": "I have read and accepted the Terms of Service",
+  "signup.login_link": "Login here",
+  "signup.login_prompt": "Already have an account?",
+  "signup.tos": "By creating an account, you agree to our Terms of Service and Privacy Policy.",
+  "welcome": "Welcome"
+}

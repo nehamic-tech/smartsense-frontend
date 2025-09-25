@@ -1,0 +1,21 @@
+{
+  "btn_login": "Entrar",
+  "btn_signup": "Registrar",
+  "errors.fieldMandatory": "Este campo é obrigatório",
+  "errors.invalidEmail": "Endereço de email inválido",
+  "errors.passwordMin": "A senha deve ter no mínimo 6 caracteres",
+  "errors.passwordMismatch": "As senhas não coincidem",
+  "errors.stringMin": "Deve ter no mínimo 2 caracteres",
+  "login": "Entrar",
+  "signup_feature_1": "Conecte-se em minutos",
+  "signup_feature_2": "Desenvolva aplicativos IoT rapidamente",
+  "signup_feature_3": "Obtenha insights valiosos com análises e visualizações integradas.",
+  "signup_feature_4": "Gerencie dispositivos remotamente com atualizações OTA.",
+  "signup_header": "Bem vindo a nossa pagina de registro!",
+  "signup.create_account": "Crie a sua conta",
+  "signup.frm.tos": "Li e aceitei os Termos de Serviço",
+  "signup.login_link": "Entre aqui",
+  "signup.login_prompt": "Já tem uma conta?",
+  "signup.tos": "Ao criar uma conta, você concorda com nossos Termos de Serviço e Política de Privacidade. Por favor leia com cuidado o documento",
+  "welcome": "Bem vindo"
+}
