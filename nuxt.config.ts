@@ -21,6 +21,9 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "motion-v/nuxt",
     "@vueuse/nuxt",
+    "@vee-validate/nuxt",
+    "v-wave/nuxt",
+    "vue-sonner/nuxt"
   ],
 
   css: ["~/assets/css/main.css"],
@@ -40,17 +43,18 @@ export default defineNuxtConfig({
   },
 
   imports: {
-    imports: [
-      {
-        from: "tailwind-variants",
-        name: "tv",
-      },
-      {
-        from: "tailwind-variants",
-        name: "VariantProps",
-        type: true,
-      },
-    ],
+    imports: [{
+      from: "tailwind-variants",
+      name: "tv",
+    }, {
+      from: "tailwind-variants",
+      name: "VariantProps",
+      type: true,
+    }, {
+      from: "vue-sonner",
+      name: "toast",
+      as: "useSonner",
+    }],
   },
 
   colorMode: {

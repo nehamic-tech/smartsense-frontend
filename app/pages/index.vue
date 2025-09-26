@@ -278,10 +278,13 @@ const features = [
           </UiSheet>
         </div>
         <div class="hidden items-center gap-3 lg:flex">
-          <UiButton to="#" variant="ghost" size="sm">
+          <UiColorModeButton />
+
+          <UiButton to="#" variant="ghost" size="default">
             Log in
           </UiButton>
-          <UiButton to="#" size="sm">
+
+          <UiButton to="/signup" size="default">
             Sign up
           </UiButton>
         </div>
