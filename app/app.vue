@@ -5,6 +5,6 @@
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <UiSonner />
+    <UiSonner rich-colors position="top-right" :duration="3000" />
   </div>
 </template>

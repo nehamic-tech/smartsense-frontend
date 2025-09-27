@@ -134,7 +134,7 @@ const features = [
             <UiNavigationMenuList class="gap-2">
               <UiNavigationMenuItem>
                 <UiNavigationMenuLink as-child>
-                  <UiButton to="#" variant="ghost" size="sm">
+                  <UiButton v-wave to="#" variant="ghost" size="sm">
                     Home
                   </UiButton>
                 </UiNavigationMenuLink>
@@ -280,11 +280,11 @@ const features = [
         <div class="hidden items-center gap-3 lg:flex">
           <UiColorModeButton />
 
-          <UiButton to="#" variant="ghost" size="default">
+          <UiButton v-wave to="/login" variant="ghost" size="default">
             Log in
           </UiButton>
 
-          <UiButton to="/signup" size="default">
+          <UiButton v-wave to="/signup" size="default">
             Sign up
           </UiButton>
         </div>

@@ -34,5 +34,5 @@ export default withNuxt(
       css,
     },
     language: "css/css",
-  })
+  }),
 );
