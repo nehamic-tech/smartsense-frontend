@@ -14,6 +14,7 @@ const isDark = computed({
 <template>
   <ClientOnly v-if="!colorMode?.forced">
     <UiButton
+      v-wave
       size="icon" variant="ghost"
       :aria-label="`Switch to ${isDark ? 'light' : 'dark'} mode`"
       @click="isDark = !isDark">

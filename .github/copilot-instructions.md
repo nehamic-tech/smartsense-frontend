@@ -1,6 +1,6 @@
 ## Copilot / AI Assistant Quick Guide
 
-Purpose: help an AI agent become productive quickly in this Nuxt 4 + Tailwind v4 frontend.
+Purpose: This app is an IoT saas build with nuxt 4. It uses tailwind v4 and UI-Thing (https://ui-thing.behonbaker.com/)
 
 Quick start (most common commands)
 

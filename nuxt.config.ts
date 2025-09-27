@@ -23,7 +23,9 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "@vee-validate/nuxt",
     "v-wave/nuxt",
-    "vue-sonner/nuxt"
+    "vue-sonner/nuxt",
+    "@pinia/nuxt",
+    "@pinia/colada-nuxt",
   ],
 
   css: ["~/assets/css/main.css"],
@@ -72,5 +74,8 @@ export default defineNuxtConfig({
     class: "shrink-0",
     fetchTimeout: 2000,
     serverBundle: "local",
+  },
+  runtimeConfig: {
+    apiUrl: "",
   },
 });

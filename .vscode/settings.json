@@ -79,7 +79,7 @@
     "clsx",
     "tw\\.[a-z-]+"
   ],
-  
+
   "tailwindCSS.classAttributes": [
     "class",
     "ui"

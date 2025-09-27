@@ -134,6 +134,7 @@ const forwarded = useForwardProps(
 <template>
   <component
     :is="elementType"
+
     :class="
       buttonStyles({
         hasIcon: !!icon,
@@ -161,7 +162,7 @@ const forwarded = useForwardProps(
     </slot>
     <slot name="iconRight">
       <div
-        v-if="icon && iconPlacement == 'right'"
+        v-if="icon && iconPlacement === 'right'"
         class="flex w-0 translate-x-[100%] pl-0 opacity-0 transition-all duration-200 group-hover:w-5 group-hover:translate-x-0 group-hover:pl-2 group-hover:opacity-100">
         <Icon :name="icon" class="size-4" />
       </div>
